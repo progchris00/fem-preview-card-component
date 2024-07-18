@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   align-items: center;
@@ -23,15 +24,53 @@ body {
   width: 300px;
 }
 
-.item-tag {
-  font-size: 1.5rem;
+.item-tag{
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: hsl(228, 12%, 48%);
   text-transform: uppercase;
+  letter-spacing: 10px;
+ 
+}
+
+.description-name{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   color: hsl(228, 12%, 48%);
 }
 
-.item-name {
+.item-name{
+  font-family: "Fraunces", serif;
   font-size: 2.8rem;
   line-height: 45px;
   font-weight: 700px;
   margin: 20px 0;
 }
+
+.sale-price
+{
+  font-family: "Fraunces", serif;
+  text-align: justify;
+  font-size: 2.6rem;
+  font-weight: 500px;
+  color: rgb(61, 129, 104);
+  position: relative;
+  bottom: 20px;
+}
+
+.original-price
+{
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  left: 185px;
+  bottom: 97px;
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 1px;
+}
+
+
+
+
+
