@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+}
